@@ -58,7 +58,7 @@ def game():
         print("\nIts your Bowling")
         a = 0
         while ask in('bowl'):  
-            ba = int(input("Enter a number = "))
+            ba = int(input("Enter a number = "))#your bowling
             n = 0
             boa = random.randint(1,6)
             n = n + boa
@@ -113,7 +113,7 @@ def game():
         print("\nIts your Batting")
         a = 0
         while ask in ('bat'):
-            ba = int(input("Enter a number = "))
+            ba = int(input("Enter a number = "))#requesting the number of batting form the user
             n = 0
             n = n + ba
             boa = random.randint(1,6)
